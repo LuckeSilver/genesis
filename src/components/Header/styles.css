@@ -1,0 +1,61 @@
+.contatos {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: #c68c2c;
+}
+
+.contato {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contato p {
+  display: flex;
+  align-items: center;
+}
+
+.whatsapp {
+  margin-right: 5px;
+}
+
+.email {
+  margin-bottom: 2px;
+}
+
+.contato p {
+  color: white;
+}
+
+.menu {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F3F3F3;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+}
+
+.navigation a{
+  padding: 10px 50px 10px 50px;
+}
+
+.navigation a:hover {
+  color: white;
+  transition: 0.5s;
+  background-color: #c68c2c;
+  border-radius: 20px;
+}
+
+.menu img {
+  width: 70px;
+}

@@ -1,0 +1,35 @@
+.socialMedias {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row hr {
+  background-color: #c68c2c;
+  border: none;
+  width: 350px;
+  height: 4px;
+  border-radius: 10px;
+  margin-top: 5px;
+  transition: all 0.8s;
+}
+
+.row h2 {
+  text-align: center;
+  margin-top: 5px;
+}
+
+@media (max-width: 1280px) {
+  .socialMedias a svg {
+    width: 45px;
+    height: 45px;
+  }
+
+  .row hr {
+    width: 300px;
+  }
+
+  .row h2 {
+    font-size: 1.5em;
+  }
+}

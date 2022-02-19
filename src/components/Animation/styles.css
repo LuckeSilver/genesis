@@ -1,0 +1,15 @@
+.animationContainer2 {
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+@media (max-width: 799px) {
+  .animationContainer2 {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,44 @@
+.conteudo-principal {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+}
+
+.conteudo-left {
+  width: 80%;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+.conteudo-left h2 {
+  margin-bottom: 10px;
+}
+
+.segundo-bloco {
+  margin-top: 10px;
+}
+
+.right img {
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+
+.right img:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
