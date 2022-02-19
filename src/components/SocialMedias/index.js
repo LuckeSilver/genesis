@@ -1,6 +1,6 @@
 import React from "react";
 
-import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import {FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 import "./styles.css";
 
