@@ -4,6 +4,7 @@ import {
     SiGmail,
     SiWhatsapp
 } from "react-icons/si"
+import { GiHamburgerMenu } from "react-icons/gi";
 
 import Logo from "../../assets/logo-redondo.png"
 
@@ -13,6 +14,10 @@ export default function Header() {
     return (
         <>
             <header>
+            <input type="checkbox" id="check" />
+            <label htmlFor="check">
+                <GiHamburgerMenu color="#c68c2c" size={35} />
+            </label>
                 <section className="contatos">
                     <div className="contato">
                         <p><SiGmail className="whatsapp email" size={20} color="white"/> Email@email.com</p>

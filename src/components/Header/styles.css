@@ -7,15 +7,16 @@
 }
 
 .contato {
-  width: 30%;
+  width: 50%;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .contato p {
   display: flex;
   align-items: center;
+  margin-right: 25px;
 }
 
 .whatsapp {
@@ -58,4 +59,83 @@
 
 .menu img {
   width: 70px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+label {
+  display: none;
+}
+
+@media(max-width: 780px) {
+  .logo {
+    display: none;
+  }
+
+  .contato {
+    width: 80%;
+  }
+}
+
+@media(max-width: 700px) {
+  .contatos {
+    display: none;
+  }
+  
+  .contato {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    transition: all 0.3s;
+    position: absolute;
+    z-index: 1;
+    background-color:rgba(243, 243, 243, 0.87)
+    ;
+  }
+
+  input[type="checkbox"]:checked ~ .menu {
+    transform: translateX(350px);
+    -moz-transform: translateX(350px);
+    transition-delay: 0.5;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15%;
+  }
+
+  .navigation a {
+    display: flex;
+    text-align: center;
+    padding: 20px 5px;
+    display: block;
+    width: 100%;
+    transition: all 0.5s;
+  }
+
+  .navigation a:hover {
+    background-color: #c68c2c;
+    color: #fff;
+  }
+
+  label {
+    padding: 15px;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  label {
+    display: initial;
+  }
 }
