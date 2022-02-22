@@ -8,6 +8,7 @@ import Header from "../../components/Header";
 import Topografia from "../../assets/topografia.png"
 import Topografia2 from "../../assets/topografia2.png"
 import Topografo3 from "../../assets/topografia3.png"
+import GIF from "../../assets/gif-top.gif"
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
@@ -25,6 +26,10 @@ export default function Home() {
                     <div lassName="slide"><img src={Topografia2} alt="cara2" /></div>
                     <div lassName="slide"><img src={Topografo3} alt="Cara3" /></div>
                 </AutoplaySlider>
+            </div>
+
+            <div className="mobile">
+                <img src={GIF} alt="Aimação com topografo" />
             </div>
         </>
     );
