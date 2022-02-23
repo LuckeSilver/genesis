@@ -2,13 +2,17 @@ import React from "react";
 import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/styles.css';
+import {FaWhatsapp } from "react-icons/fa";
+
 
 import "./styles.css";
 import Header from "../../components/Header";
 import Topografia from "../../assets/topografia.png"
 import Topografia2 from "../../assets/topografia2.png"
 import Topografo3 from "../../assets/topografia3.png"
-import GIF from "../../assets/gif-top.gif"
+import LogoRedondo from "../../assets/logo-redondo.png"
+
+import GIF from "../../assets/topografo.gif"
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
@@ -29,6 +33,12 @@ export default function Home() {
             </div>
 
             <div className="mobile">
+                <img id="logo" src={LogoRedondo} alt="Logo Redondo" />
+                <h2>Excelência em serviços topográficos!</h2>
+                    <a className="watshapp" href="tel:+55021981343917" target="blank">
+                        <FaWhatsapp size={25} color="#fff" />
+                        <p>Contacte-nos</p>
+                    </a>
                 <img src={GIF} alt="Aimação com topografo" />
             </div>
         </>
