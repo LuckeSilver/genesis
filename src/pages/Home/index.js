@@ -35,7 +35,7 @@ export default function Home() {
             <div className="mobile">
                 <img id="logo" src={LogoRedondo} alt="Logo Redondo" />
                 <h2>Excelência em serviços topográficos!</h2>
-                    <a className="watshapp" href="tel:+55021981343917" target="blank">
+                    <a className="watshapp" href="https://api.whatsapp.com/send?phone=5521981343917&text=Ol%C3%A1,%20gostaria%20de%20solicitar%20um%20or%C3%A7amento!" target="blank">
                         <FaWhatsapp size={25} color="#fff" />
                         <p>Contacte-nos</p>
                     </a>
