@@ -5,12 +5,16 @@ import "./styles.css";
 import Animation from "../../components/Animation";
 import Header from "../../components/Header";
 import SocialMedias from "../../components/SocialMedias";
+import LogoRedondo from "../../assets/logo-redondo.png"
 
 export default function Contact() {
     return (
     <>
       <Header />
       <div className="contact-container">
+        <div className="logo">
+          <img src={LogoRedondo} alt="logo" />
+        </div>
         
         <form name="contact" method="POST">
           <input type="hidden" name="form-name" value="contact" />
