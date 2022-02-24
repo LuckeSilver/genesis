@@ -12,7 +12,7 @@ export default function Contact() {
     <>
       <Header />
       <div className="contact-container">
-        <div className="logo">
+        <div className="logo-contato">
           <img src={LogoRedondo} alt="logo" />
         </div>
         

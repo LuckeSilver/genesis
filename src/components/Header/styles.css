@@ -80,6 +80,7 @@ label {
 }
 
 @media(max-width: 700px) {
+  
   .contatos {
     display: none;
   }
