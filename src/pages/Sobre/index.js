@@ -2,12 +2,17 @@ import React from "react";
 
 import Header from "../../components/Header";
 import Topografo from "../../assets/topografo.jpg";
+import LogoRedondo from "../../assets/logo-redondo.png"
 import "./styles.css";
 
 export default function Sobre() {
     return (
         <>
         <Header/>
+        <div className="container">
+        <div className="logo-sobre">
+            <img src={LogoRedondo} alt="logo" />
+        </div>
         <main className="conteudo-principal">
                 <aside className="left">
                     <div className="conteudo-left">
@@ -32,6 +37,7 @@ export default function Sobre() {
                     <img src={Topografo} alt="Topografo" />
                 </aside>
             </main>
+        </div>
         </>
     );
 }
