@@ -10,6 +10,7 @@ export default function Sobre() {
         <>
         <Header/>
         <div className="container">
+        <div className="content">
         <div className="logo-sobre">
             <img src={LogoRedondo} alt="logo" />
         </div>
@@ -37,6 +38,7 @@ export default function Sobre() {
                     <img src={Topografo} alt="Topografo" />
                 </aside>
             </main>
+        </div>
         </div>
         </>
     );
