@@ -197,6 +197,10 @@ input[type="submit"]:hover {
 
 @media (max-width: 799px) {
 
+  .animation {
+    display: none;
+  }
+
   .logo-contato {
     display: flex;
     justify-content: center;
