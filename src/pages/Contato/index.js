@@ -16,7 +16,7 @@ export default function Contact() {
           <img src={LogoRedondo} alt="logo" />
         </div>
         
-        <form name="contact" method="POST">
+        <form name="contact" data-netlify="true" method="POST">
           <input type="hidden" name="form-name" value="contact" />
           <div className="titles">
             <h1>DIGA OLÁ!</h1>
