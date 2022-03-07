@@ -10,10 +10,10 @@ export default function Sobre() {
         <>
         <Header/>
         <div className="container">
-        <div className="content">
-        <div className="logo-sobre">
-            <img src={LogoRedondo} alt="logo" />
-        </div>
+            <div className="content">
+                <div className="logo-sobre">
+                    <img src={LogoRedondo} alt="logo" />
+                </div>
         <main className="conteudo-principal">
                 <aside className="left">
                     <div className="conteudo-left">
